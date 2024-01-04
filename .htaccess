@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^Controllers/.* - [F]
+RewriteRule ^Models/.* - [F]
+RewriteRule ^Resource/.* - [F]

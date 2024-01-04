@@ -1,0 +1,70 @@
+/* Tambahkan gaya kustom di sini jika diperlukan */
+body {
+  padding-top: 50px;
+  background-color: #add8e6;
+  height: 800px;
+  /* Warna biru pastel */
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #ffffff;
+  /* Warna putih */
+}
+
+#gender-selection {
+  background-color: #fffbe7;
+  /* Warna putih */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.display-4 span {
+  color : #eb280e;
+  font-weight: 500;
+}
+
+.gender-label {
+  font-size: 18px;
+  margin-top: 5px;
+  color: #333;
+  /* Warna abu-abu untuk teks */
+}
+
+.gender-container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.gender-image {
+  width: 80px;
+  /* Sesuaikan ukuran gambar sesuai kebutuhan */
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: filter 0.3s ease-in-out;
+  /* Efek transisi untuk perubahan warna dan filter */
+}
+
+.selected {
+  filter: none;
+}
+
+.not-selected {
+  filter: grayscale(100%);
+  /* Efek grayscale untuk gambar yang tidak dipilih */
+}
+
+.deskripsi {
+  padding: 0.4rem;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  /* Warna putih */
+}
+@media (max-width: 768px) {
+  .btn {
+    margin-bottom: 1rem;
+  }
+}
